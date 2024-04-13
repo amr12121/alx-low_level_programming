@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "hash_tables.h"
@@ -25,4 +25,3 @@ int main(void)
     printf("%lu\n", key_index((unsigned char *)s, hash_table_array_size));  
     return (EXIT_SUCCESS);
 }
-`

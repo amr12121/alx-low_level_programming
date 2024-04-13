@@ -1,4 +1,4 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_djb2 - function to compute hash of 'str' using djb2
@@ -19,4 +19,3 @@ unsigned long int hash_djb2(const unsigned char *str)
 	}
 	return (hash);
 }
-

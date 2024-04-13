@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "hash_tables.h"
@@ -16,4 +16,3 @@ int main(void)
     hash_table_set(ht, "betty", "cool");
     return (EXIT_SUCCESS);
 }
-

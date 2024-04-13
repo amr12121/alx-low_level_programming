@@ -1,4 +1,4 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_set - function that adds an element to the hash table
@@ -50,4 +50,3 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	ht->array[index] = new_node;
 	return (1);
 }
-

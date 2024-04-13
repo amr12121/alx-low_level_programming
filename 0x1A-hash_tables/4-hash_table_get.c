@@ -1,4 +1,4 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 /**
  * hash_table_get - function to retrieve value associeted with key
  * @ht: pointer to hash table
@@ -26,4 +26,3 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	}
 	return (NULL);
 }
-

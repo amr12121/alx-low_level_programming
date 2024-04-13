@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "hash_tables.h"
@@ -33,4 +33,3 @@ int main(void)
         shash_table_delete(ht);
     return (EXIT_SUCCESS);
 }
-

@@ -1,4 +1,4 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_print - function to print the key:value from ht
@@ -29,4 +29,3 @@ void hash_table_print(const hash_table_t *ht)
 	}
 	printf("}\n");
 }
-
